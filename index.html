@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>fullPage.js演示-搜狗输入法 for Mac_dowebok</title>
+    <link rel="icon" type="image/jpg" href="./images/hellosix-logo.png">
     <link rel="stylesheet" href="css/jquery.fullPage.min.css">
     <style>
         * { margin: 0; padding: 0;}
@@ -37,6 +38,35 @@
         .DownloadBtn { cursor: pointer; margin: 85px auto 0; width: 220px; height: 50px; position: relative; background: #5396FF; color: #fff; line-height: 50px; font-size: 24px; border-radius: 25px;}
         .DownloadBtn a { display: inline-block; width: 100%; height: 100%; color: #fff; font-family: 'PingFang-SC-UltraLight', '微软雅黑', '宋体'; text-decoration: none;}
         #fp-nav ul li a span, .fp-slidesNav ul li a span { background-color: #fff;}
+        .image-content{
+            width: 880px;
+            margin: 0 auto;
+        }
+        .image-content-div{
+            width: 200px;
+            margin-left: 10px;
+            margin-right: 10px;
+            float: left;
+        }
+        .image-content-item{
+            width: 200px;
+            height: 150px;
+        }
+
+        .redis-manager-content{
+            width: 880px;
+            margin: 0 auto;
+        }
+        .redis-manager-content-info{
+            float: left;
+            width: 440px;
+            color: #fff; opacity: 1;
+            font-size: 30px;
+        }
+        .redis-manager-content-img{
+            float: right;
+            width: 400px;
+        }
     </style>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
@@ -54,38 +84,57 @@
     <div class="menu">
         <h1 class="logo"><a href="../images/hellosix-logo.png"></a></h1>
         <ul class="nav">
-            <li><a href="javascript:">Github</a></li>
+            <li><a target="_black" href="https://github.com/hellosix">Github</a></li>
         </ul>
     </div>
 </div>
 <div id="fullpage">
     <div class="section" id="section0">
-        <div class="title1">忘记输入 享受Mac</div>
-        <div class="title2">搜狗拼音输入法 for Mac 3.5.0</div>
-        <div class="title3">我们相信，在Mac的世界中，你只需放飞自己的想象力
-            <br>享受一切理所应当的美好！</div>
-        <div class="DownloadBtn"><a href="http://www.dowebok.com/" target="_blank">立即下载</a></div>
+        <div class="title1">hellosix</div>
+        <div class="title2">这是一个专注于提供开源产品的组织</div>
+        <div class="title3">
+            涉及的产品领域有 大数据、机器学习、区块链、公用类库、业务平台<br>
+            相信我们 hellosix 真的很六<br>
+        </div>
+        <div class="DownloadBtn"><a href="https://github.com/hellosix" target="_blank">我们的github</a></div>
     </div>
     <div class="section" id="section1">
-        <div class="title1">不为另类 只因喜爱</div>
-        <div class="title2">搜狗五笔输入法 for Mac 1.0.0</div>
-        <div class="title3">从PC到Mac，我们力求让你的五笔输入法得到同样的优质体验
-            <br>继承Windows输入法的完美血统</div>
-        <div class="DownloadBtn"><a href="http://www.dowebok.com/" target="_blank">立即下载</a></div>
+        <div class="title1">在线体验</div>
+        <div class="title2">提供在线操作平台，让你提前感受一下产品使用</div>
+        <br>
+        <div class="image-content">
+            <div class="image-content-div"><a href="http://39.105.114.48:8089/index" target="_blank"><img class="image-content-item" src="./images/corummirror.png"></a></div>
+            <div class="image-content-div"><a href="http://39.105.114.48:8085/index" target="_blank"><img class="image-content-item" src="./images/kafka-manager.png"></a></div>
+            <div class="image-content-div"><a href="http://39.105.114.48:8281/index" target="_blank"><img class="image-content-item" src="./images/zookeeper-manager.png"></a></div>
+            <div class="image-content-div"><a href="http://39.105.114.48:8080/index" target="_blank"><img class="image-content-item" src="./images/south-door.png"></a></div>
+        </div>
     </div>
     <div class="section" id="section2">
-        <div class="title1">Hello,Mac!</div>
-        <div class="title2">皮肤编辑器 for Mac 1.0.0</div>
-        <div class="title3">无论你是轻车熟路的皮肤作者，还是灵感爆棚的设计师，都将在这里找到归属感
-            <br>带来梦想照进现实般的创作体验</div>
-        <div class="DownloadBtn"><a href="http://www.dowebok.com/" target="_blank">立即下载</a></div>
+        <div class="title1">RedisManager</div>
+        <br>
+        <div class="redis-manager-content">
+            <div class="redis-manager-content-info">
+                redis 一站式解决方案，包含了集群创建、管理、监控
+                <div class="DownloadBtn"><a href="https://github.com/ngbdf/redis-manager" target="_blank">github</a></div>
+                <div class="DownloadBtn" style="margin-top: 20px"><a href="https://ngbdf.github.io" target="_blank">体验地址</a></div>
+            </div>
+            <div class="redis-manager-content-img">
+                <img width="400" height="330" src="./images/redis-manager.png">
+            </div>
+        </div>
     </div>
     <div class="section" id="section3">
-        <div class="title1">个性输入 缤纷心情</div>
-        <div class="title2">海量精美皮肤 for Mac</div>
-        <div class="title3">简约派，或是萌系一族，我们都能给你想要的与众不同
-            <br>打字这件小事，也可玩味十足</div>
-        <div class="DownloadBtn"><a href="http://www.dowebok.com/" target="_blank">前往皮肤Store</a></div>
+        <div class="title1">情感解码</div>
+        <div class="title3">
+            与你相遇<br>
+            我就走进了一个循环<br>
+            我把青春放进你的堆栈<br>
+            取出的明天总是残缺不全<br>
+            总想发现一个指针<br>
+            指向明天的将要溢出的幸福<br>
+            总想设置一个数组<br>
+            数组里装满了美女和别墅<br>
+            有时候却轻轻的对自己说，蓝瘦，香菇
     </div>
 </div>
 </body>
