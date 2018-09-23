@@ -1,2 +1,3 @@
 # hellosix.github.io
-hellosix
+
+点击访问 https://hellosix.github.io/
