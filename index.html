@@ -67,6 +67,55 @@
             float: right;
             width: 400px;
         }
+
+        @keyframes fadein{
+            0%{opacity: 0;
+            }
+            100%{
+                opacity: 1;
+
+            }
+        }
+        @-webkit-keyframes fadein{
+            0%{opacity: 0;
+            }
+            100%{
+                opacity: 1;
+
+            }
+        }
+        @-moz-keyframes fadein{
+            0%{opacity: 0;
+            }
+            100%{
+                opacity: 1;
+
+            }
+        }
+        @-o-keyframes fadein{
+            0%{opacity: 0;
+            }
+            100%{
+                opacity: 1;
+
+            }
+        }
+        @-ms-keyframes fadein{
+            0%{opacity: 0;
+            }
+            100%{
+                opacity: 1;
+
+            }
+        }
+        .fade-img{
+            animation:fadein 3s linear 1;
+            -webkit-animation:fadein 3s linear 1;
+            -moz-animation:fadein 3s linear 1;
+            -o-animation:fadein 3s linear 1;
+            -ms-animation:fadein 3s linear 1;
+        }
+
     </style>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.fullPage.min.js"></script>
@@ -103,10 +152,10 @@
         <div class="title2">提供在线操作平台，让你提前感受一下产品使用</div>
         <br>
         <div class="image-content">
-            <div class="image-content-div"><a href="http://39.105.114.48:8089/index" target="_blank"><img class="image-content-item" src="./images/corummirror.png"></a></div>
-            <div class="image-content-div"><a href="http://39.105.114.48:8085/index" target="_blank"><img class="image-content-item" src="./images/kafka-manager.png"></a></div>
-            <div class="image-content-div"><a href="http://39.105.114.48:8281/index" target="_blank"><img class="image-content-item" src="./images/zookeeper-manager.png"></a></div>
-            <div class="image-content-div"><a href="http://39.105.114.48:8080/index" target="_blank"><img class="image-content-item" src="./images/south-door.png"></a></div>
+            <div class="image-content-div"><a href="http://39.105.114.48:8089/index" target="_blank"><img class="image-content-item fade-img" src="./images/corummirror.png"></a></div>
+            <div class="image-content-div"><a href="http://39.105.114.48:8085/index" target="_blank"><img class="image-content-item fade-img" src="./images/kafka-manager.png"></a></div>
+            <div class="image-content-div"><a href="http://39.105.114.48:8281/index" target="_blank"><img class="image-content-item fade-img" src="./images/zookeeper-manager.png"></a></div>
+            <div class="image-content-div"><a href="http://39.105.114.48:8080/index" target="_blank"><img class="image-content-item fade-img" src="./images/south-door.png"></a></div>
         </div>
     </div>
     <div class="section" id="section2">
@@ -118,7 +167,7 @@
                 <div class="DownloadBtn"><a href="https://github.com/ngbdf/redis-manager" target="_blank">github</a></div>
                 <div class="DownloadBtn" style="margin-top: 20px"><a href="https://ngbdf.github.io" target="_blank">体验地址</a></div>
             </div>
-            <div class="redis-manager-content-img">
+            <div class="redis-manager-content-img fade-img">
                 <img width="400" height="330" src="./images/redis-manager.png">
             </div>
         </div>
